@@ -1,0 +1,71 @@
+// Typography
+$font-family-primary: 'Nunito', sans-serif;
+$font-family-secondary: 'Poppins', sans-serif;
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Light Theme Colors
+:root {
+  // Primary Colors - Warm reds and pinks for love and passion
+  --primary-color: #FF5A5F;
+  --primary-color-light: #FF8A8F;
+  --primary-color-dark: #E04146;
+  --primary-color-rgb: 255, 90, 95;
+  
+  // Secondary Colors - Purple tones
+  --secondary-color: #A855F7;
+  --secondary-color-light: #C084FC;
+  --secondary-color-dark: #8B5CF6;
+  
+  // Accent Colors
+  --accent-color: #F9A826;
+  --accent-color-light: #FBC063;
+  --accent-color-dark: #E08F15;
+  
+  // Neutral Colors
+  --bg-color: #FFF9F9;
+  --card-bg: #FFFFFF;
+  --text-color: #333333;
+  --heading-color: #222222;
+  --text-muted: #6B7280;
+  --border-color: #E2E8F0;
+  --input-bg: #FFFFFF;
+  
+  // Status Colors
+  --success: #10B981;
+  --danger: #EF4444;
+  --warning: #F59E0B;
+  --info: #3B82F6;
+}
+
+// Dark Theme Colors
+.dark-theme {
+  --primary-color: #FF6B70;
+  --primary-color-light: #FF8A8F;
+  --primary-color-dark: #FF4D52;
+  
+  --secondary-color: #BD82FF;
+  --secondary-color-light: #D4B3FF;
+  --secondary-color-dark: #A64DFF;
+  
+  --accent-color: #FDB93E;
+  --accent-color-light: #FDC868;
+  --accent-color-dark: #FDAA1A;
+  
+  --bg-color: #1A1A1A;
+  --card-bg: #2D2D2D;
+  --text-color: #E0E0E0;
+  --heading-color: #FFFFFF;
+  --text-muted: #9CA3AF;
+  --border-color: #4B5563;
+  --input-bg: #333333;
+  
+  --success: #059669;
+  --danger: #DC2626;
+  --warning: #D97706;
+  --info: #2563EB;
+}
